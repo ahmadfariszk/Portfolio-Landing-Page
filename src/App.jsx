@@ -20,13 +20,17 @@ function App() {
         </header>
         <div id="first-section">
           <div className="text">
+            <img
+              className="profileImage"
+              src="https://avatars.githubusercontent.com/u/149571714?v=4"
+            ></img>
             <h1>Ahmad Faris</h1>
             <p className="secondary-text">
-              Electrical & Electronics Engineer transitioning to software
-              engineering, specializing in web development. Leveraging embedded
-              systems expertise and self-study to contribute technical skills
-              and problem-solving abilities to a dynamic team as an Associate
-              Junior Software Developer.
+              An Electrical & Electronics Engineer transitioning to software
+              engineering, aspiring to specialize in web development and become
+              a Frontend Developer. With a current expertise in embedded systems
+              development and engineering, those skills are applied to further
+              delve deeper in software engineering.
             </p>
             {/* <div className="btn-container">
               <button>Sign up</button>
@@ -40,14 +44,30 @@ function App() {
         <div id="second-section">
           <ul>
             <div className="card">
-              <button className="movieButton" onClick={() => window.open("https://ahmadfariszk.github.io/Movie-Search/", "_blank")}></button>
+              <button
+                className="movieButton"
+                onClick={() =>
+                  window.open(
+                    "https://ahmadfariszk.github.io/Movie-Search/",
+                    "_blank"
+                  )
+                }
+              ></button>
               <li>
                 <h3>Movie-Search</h3> Explore an extensive database of movies
                 and TV shows through our user-friendly search app
               </li>
             </div>
             <div className="card">
-              <button className="cvButton" onClick={() => window.open("https://ahmadfariszk.github.io/CV-Form/", "_blank")}></button>
+              <button
+                className="cvButton"
+                onClick={() =>
+                  window.open(
+                    "https://ahmadfariszk.github.io/CV-Form/",
+                    "_blank"
+                  )
+                }
+              ></button>
               <li>
                 <h3>CV-Form</h3>Create professional resumes effortlessly by
                 inputting your work experience, education, and contact details,
